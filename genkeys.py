@@ -89,7 +89,7 @@ def compute_modular_inverse(e, modulus):
     return extended_gcd(e, modulus)
 
 
-def generate_keys(bits=2048):
+def generate_keys(bits=1024):
     print ('-'*20+' Generating p prime '+'-'*20)
     p = generate_prime(bits)
     # print ('p prime: %s' % p)
